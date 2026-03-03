@@ -1,0 +1,21 @@
+
+@import "{{ site.theme }}";
+
+// Colores de Forward Vision
+$primary-color: #004a99; // Azul corporativo
+$accent-color: #00d4ff;  // Cyan tecnológico
+
+header.site-header {
+  background-color: $primary-color;
+  border-top: none;
+  .site-title, .page-link { color: white !important; }
+}
+
+.wrapper {
+  max-width: 1000px;
+}
+
+h1, h2, h3 {
+  color: $primary-color;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
